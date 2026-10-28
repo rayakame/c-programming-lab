@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+cmake-build-*/
+
+# Kompilierte Programme haben keine Dateiendung, daher alles ohne Punkt im Namen ignorieren.
+week_*/**/*
+!week_*/**/
+!week_*/**/*.*
+!week_*/**/Makefile
+*.dSYM/

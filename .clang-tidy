@@ -1,0 +1,17 @@
+Checks: >
+  -*,
+  bugprone-*,
+  cert-*,
+  clang-analyzer-*,
+  misc-*,
+  portability-*,
+  readability-*,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-unchecked-string-to-number-conversion,
+  -cert-err33-c,
+  -cert-err34-c,
+  -clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling,
+  -misc-include-cleaner,
+  -readability-identifier-length,
+  -readability-magic-numbers
+HeaderFilterRegex: '.*'
